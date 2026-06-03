@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>create account</h2>
+        <p class="sub-text">
+             start your ai career journey
+        </p>
+        <form method="post">
+            <input type="email" name="email" placeholder="enter your email" required>
+            <input type="password" name="password" placeholder="create a password " required>
+            <p class="sub-text">use atlest 6 mixed characters password</p>
+            <button type="submit">sign up</button>
+        </form>
+        <p class="switch-auth">
+            Already have an account? <a href="/login"></a>
+        </p>
+    </div>
+</div>
